@@ -1,0 +1,36 @@
+div {
+    content: "Elment";
+    background-color: lightgray;
+    counter-increment: eslam;
+    float: left;
+    width: 100px;
+    margin: 20px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid black;
+    position: relative;
+    box-shadow: -5px -5px 0 0 #e91e63, 5px 5px 0 0 #2196f3;
+}
+
+div::after {
+    content: "element";
+    text-transform: capitalize;
+    left: 22px;
+    top: 36px;
+    color: black;
+    position: absolute;
+}
+
+div::before {
+    content: counter(eslam);
+    text-transform: capitalize;
+    left: 37px;
+    top: -11px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}

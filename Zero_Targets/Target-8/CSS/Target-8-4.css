@@ -1,0 +1,35 @@
+button {
+    width: 80px;
+    height: 20px;
+    text-align: center;
+}
+
+table {
+    width: 700px;
+    margin: auto;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+.View-1 {
+    background-color: skyblue;
+}
+
+.Delete-1 {
+    background-color: red;
+}
+
+table thead td {
+    color: white;
+    background-color: black;
+}

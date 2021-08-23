@@ -1,0 +1,21 @@
+.shape-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 red, 7px 7px 0 blue, 10px 10px 0 purple;
+}
+
+.shape-2-1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.shape-2-2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.shape-2-3 {
+    text-align: center;
+    text-transform: lowercase;
+}

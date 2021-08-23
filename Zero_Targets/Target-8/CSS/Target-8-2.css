@@ -1,0 +1,47 @@
+div {
+    font-size: 25px;
+    width: 400px;
+    background-color: lightgrey;
+    border-color: red lightblue;
+    border-style: solid;
+    border-width: 2.5px;
+    margin: auto;
+    z-index: -1;
+    position: relative;
+    padding: 20px;
+}
+
+.top-left, .bottom-left, .top-right, .bottom-right {
+    background-color: lightblue;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+
+.top-left {
+    top: -10px;
+    left: -15px;
+}
+
+.bottom-left {
+    bottom: -10px;
+    left: -15px;
+}
+
+.top-right {
+    top: -10px;
+    right: -15px;
+}
+
+.bottom-right {
+    bottom: -10px;
+    right: -15px;
+}
+
+.top-left, .bottom-left {
+    border-right: red solid 2.5px;
+}
+
+.top-right, .bottom-right {
+    border-left: red solid 2.5px;
+}

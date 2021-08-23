@@ -1,0 +1,19 @@
+div {
+    width: 400px;
+    background-color: lightgray;
+    outline: 10px solid lightgray;
+    margin: 20px;
+    padding: 10px;
+}
+
+.Shape-1 {
+    border-left: 5px solid rgba(255, 30, 0, 0.863);
+}
+
+.Shape-2 {
+    visibility: hidden;
+}
+
+.Shape-3 {
+    border-left: 5px solid rgba(0, 128, 38, 0.753);
+}

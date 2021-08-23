@@ -1,0 +1,17 @@
+div {
+    width: 400px;
+    padding: 10px;
+    white-space: normal;
+    background-color: lightgray;
+}
+
+.shape-2 {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.shape-3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

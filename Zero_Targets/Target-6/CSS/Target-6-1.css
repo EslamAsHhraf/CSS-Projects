@@ -1,0 +1,60 @@
+.div-1 {
+    border: 10px solid darkorange;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.p-1 {
+    font-size: 50px;
+    background-color: lightgrey;
+    border: inherit;
+    padding: inherit;
+}
+
+.div-2 {
+    border: 10px solid green;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.p-2 {
+    font-size: 50px;
+    background-color: lightgrey;
+    border: inherit;
+    padding: inherit;
+}
+
+.shape-2-1, .shape-2-2, .shape-2-3, .shape-3-1, .shape-3-2, .shape-3-3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.shape-2-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.shape-2-2 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+.shape-2-3 {
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
+}
+
+.shape-3-1 {
+    font-size: 2.5rem;
+}
+
+.shape-3-2 {
+    font-size: 2rem;
+}
+
+.shape-3-3 {
+    font-size: 1.5rem;
+}

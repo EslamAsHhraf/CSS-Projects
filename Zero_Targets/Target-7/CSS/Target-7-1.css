@@ -1,0 +1,39 @@
+.parent {
+    text-align: center;
+    font: bold;
+    width: 800px;
+    background-color: #eee;
+    margin: auto;
+}
+
+.Full {
+    margin-top: 15px;
+}
+
+.one-1, .two-1, .three-1, .Full, .one-2, .two-2, .one-3, .two-3, .three-3, .four-3 {
+    background-color: lightgray;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 15px 0px;
+    float: left;
+}
+
+.Full {
+    width: calc((100% - 30px)/1);
+}
+
+.one-1, .two-1, .three-1 {
+    width: calc((100% - 60px) / 3);
+}
+
+.one-2, .two-2 {
+    width: calc((100% - 45px) / 2);
+}
+
+.one-3, .two-3, .three-3, .four-3 {
+    width: calc((100% - 75px) / 4);
+}
+
+.Clear {
+    clear: both;
+}
