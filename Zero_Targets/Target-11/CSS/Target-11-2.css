@@ -1,0 +1,24 @@
+div {
+    margin: 20px auto !important;
+    width: 400px !important;
+    font-size: 20px !important;
+    background-color: lightgray !important;
+    color: black !important;
+    text-align: center !important;
+    border: aliceblue !important;
+    position: relative;
+}
+
+div::first-line {
+    visibility: hidden;
+}
+
+div::after {
+    content: "Elzero";
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    visibility: visible;
+    left: 3%;
+    font-size: larger;
+}

@@ -1,0 +1,29 @@
+.parent {
+    background-color: #f2f2f4;
+    margin: 50px auto;
+    width: 400px;
+    height: 220px;
+    transition: 0.5s;
+    transition-property: all;
+}
+
+.parent:hover {
+    margin: 20px auto;
+}
+
+.parent:hover .down {
+    margin: 40px 20px 20px;
+}
+
+div {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.down {
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    transition-property: all;
+    background-color: #dededc;
+}
