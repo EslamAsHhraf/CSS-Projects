@@ -1,0 +1,21 @@
+.parent {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: space-between;
+    align-items: flex-start;
+    margin: 20px auto;
+    background-color: lightgrey;
+}
+
+.parent div {
+    background-color: #f44336;
+    width: calc(96%/3);
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5px;
+}
