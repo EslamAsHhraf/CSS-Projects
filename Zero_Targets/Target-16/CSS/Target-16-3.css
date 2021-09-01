@@ -1,0 +1,12 @@
+.class {
+    background-color: teal;
+    color: white;
+    width: 100px;
+    margin: 60px auto;
+    /* transform: translatex(20px) translatey(100px) scalex(3) skewY( 15deg) skewX( 0deg) scaleY(3);*/
+    transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    -webkit-transform: translatex(20px) translatey(100px) scalex(3) skewY( 15deg) skewX( 0deg) scaleY(3);
+    -moz-transform: translatex(20px) translatey(100px) scalex(3) skewY( 15deg) skewX( 0deg) scaleY(3);
+    -ms-transform: translatex(20px) translatey(100px) scalex(3) skewY( 15deg) skewX( 0deg) scaleY(3);
+    -o-transform: translatex(20px) translatey(100px) scalex(3) skewY( 15deg) skewX( 0deg) scaleY(3);
+}

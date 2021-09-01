@@ -1,0 +1,92 @@
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background-color: #eeeeee;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div::after {
+    content: "";
+    background-color: transparent;
+    width: 220px;
+    box-sizing: border-box;
+    height: 220px;
+    border-radius: 100px;
+    -webkit-border-radius: 110px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: 10px solid #e91e63;
+    border-left: 10px solid transparent;
+    position: absolute;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+div::before {
+    content: "";
+    background-color: transparent;
+    width: 240px;
+    box-sizing: border-box;
+    height: 240px;
+    border-radius: 100px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: 10px solid #2196f3;
+    border-right: 10px solid transparent;
+    position: absolute;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transition-property: all;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+div:hover::after {
+    transition-duration: 0.5s;
+    transition-property: all;
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+}
+
+div:hover::before {
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transition-property: all;
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+}

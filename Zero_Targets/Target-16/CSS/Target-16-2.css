@@ -1,0 +1,46 @@
+:root {
+    --backcolor: #009688;
+}
+
+h1 {
+    background-color: var(--backcolor);
+    color: white;
+    font-weight: bolder;
+    width: 150px;
+    margin: 50px auto;
+    font-size: 46px;
+    padding: 10px 0px;
+    position: relative;
+}
+
+h1::after {
+    position: absolute;
+    content: "";
+    background-color: var(--backcolor);
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: -18%;
+    z-index: -1;
+    transform: skew( 26deg, 0deg);
+    -webkit-transform: skew( 26deg, 0deg);
+    -moz-transform: skew( 26deg, 0deg);
+    -ms-transform: skew( 26deg, 0deg);
+    -o-transform: skew( 26deg, 0deg);
+}
+
+h1::before {
+    position: absolute;
+    content: "";
+    background-color: var(--backcolor);
+    width: 13%;
+    height: 100%;
+    top: 0;
+    left: -36%;
+    z-index: -1;
+    transform: skew( 26deg, 0deg);
+    -webkit-transform: skew( 26deg, 0deg);
+    -moz-transform: skew( 26deg, 0deg);
+    -ms-transform: skew( 26deg, 0deg);
+    -o-transform: skew( 26deg, 0deg);
+}
