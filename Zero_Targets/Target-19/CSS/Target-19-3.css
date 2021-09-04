@@ -1,0 +1,49 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.parent>div {
+    background-color: #eee;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+}
+
+.parent>div div:first-child {
+    font-weight: bolder;
+}
+
+@media (max-width: 767px) {
+    .parent>div {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .parent>div:first-child {
+        width: 100%
+    }
+    .parent>div {
+        width: calc(33% - 100px);
+        padding: 35px;
+    }
+    .parent>div div:first-child {
+        color: red;
+    }
+}
+
+@media (min-width: 1200px) {
+    .parent>div:first-child, .parent>div:last-child {
+        width: 100%
+    }
+    .parent>div {
+        width: calc(50% - 100px);
+        padding: 33px;
+    }
+    .parent>div div:first-child {
+        color: green;
+    }
+}

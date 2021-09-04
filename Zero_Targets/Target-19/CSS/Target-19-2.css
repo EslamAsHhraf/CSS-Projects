@@ -1,0 +1,41 @@
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.parent>div {
+    background-color: #eee;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parent>div div:first-child {
+    font-weight: bolder;
+}
+
+@media (max-width: 767px) {
+    .parent>div {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .parent>div {
+        width: calc(50% - 80px);
+    }
+    .parent>div div:first-child {
+        color: red;
+    }
+}
+
+@media (min-width: 1200px) {
+    .parent>div {
+        width: calc(25% - 80px);
+    }
+    .parent>div div:first-child {
+        color: green;
+    }
+}
